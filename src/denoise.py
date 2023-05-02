@@ -3,7 +3,7 @@ from PIL import Image
 import cv2 
 import matplotlib.pyplot as plt
 import numpy as np
-
+import math
 
 path = r"C:\Users\chang\Downloads\New folder\the best\0aa8a895-1301-41d5-9098-02db9738b43b.jpg"
 img = Image.open(path)
@@ -26,10 +26,16 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # %%
+from PIL import Image
+import cv2 
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
 class ImageConvolutionRGB:
-    def __init__(self, image_path):
+    def __init__(self, img):
         # Load the image
-        self.image = cv2.imread(image_path)
+        self.image = img
         
         # Convert the image to a numpy array
         self.image_array = np.array(self.image)
@@ -85,10 +91,22 @@ def gaussian_kernel(size, sigma):
     kernel = kernel / np.sum(kernel)
     return kernel
 
+def std(img):
+    # std = sqrt(mean(a-a.mean)^2)
+    return np.std(img)
+    
 path = r"C:\Users\chang\Downloads\New folder\the best\0aa8a895-1301-41d5-9098-02db9738b43b.jpg"
-img = ImageConvolutionRGB(image_path=path)
-cv2.imshow('image', img.image_array)
+img = cv2.imread(path)
+Img = ImageConvolutionRGB(img)
+Img_ROI = ImageConvolutionRGB(Img.get_roi(128, 128, 256, 256))
+identity =  np.identity(21)
+new_img = Img_ROI.convolve(kernel=identity)
+
+print(std(Img.image_array), std(Img_ROI.image_array))
+
+cv2.imshow('image', Img_ROI.image_array)
+# cv2.imshow('roi', img.image_array)
 cv2.waitKey(0)
-cv2.destroyAllWindows
+cv2.destroyAllWindows()
 # %%
 
