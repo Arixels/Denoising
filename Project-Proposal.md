@@ -1,70 +1,136 @@
 # Project Proposal
+Mainly a learning project to survey various denoising algorithms and learning how to quantify and evaluate image quality in relation to noise. 
 
-The project proposal is a critical document laying out the specification for a research project. It is the first deliverable in any research program, and will often be dynamically updated over the course of the project. It is likely to become a part of a future writeup / academic paper.
+The goal of this project will be to benchmark and survey various denoising methodologies ranging from classical/mathematical models to AI/deep learning approaches. The value add will be characterizing their ability to perform in certain scenarios like real time applications vs offline methods. 
+
 
 ## Big picture
-- What is the overall problem that this and related research is trying to solve?
-- Why should people care about the problem?
-- What has been done so far to solve this problem?
+The overarching issue addressed by this research revolves around the escalating demand for improved accuracy and visual aesthetics in digital images, driven by the exponential increase in daily image capture. However, the inevitable noise in modern camera-captured images hampers visual quality, necessitating effective denoising solutions.
+
+Significance of the Problem:
+The importance of this problem lies in the ubiquitous nature of digital imagery and the need for high-quality visual content. As the number of digital images continues to soar, enhancing the visual appeal by mitigating noise becomes imperative for various applications, from personal photography to professional image processing.
+
+Previous Efforts:
+Researchers have proposed numerous methods to alleviate image noise. Each method comes with its own merits and drawbacks, contributing to the ongoing exploration of effective denoising techniques.
 
 ## Specific project scope
-- What subset of the overall problem are you addressing in particular?
-- How does solving this subproblem lead towards solving the big picture problem?
-- What is your specific approach to solving this subproblem?
-- How will this approach result in a solution?
-- How will we know that this subproblem has been satisfactorily solved, using quantitative metrics?
-- Create and include one or two graphics that capture and communicate the problem and proposed solution to technical but non-expert audiences.
+Subset Addressed:
+This research focuses on the specific subset of image denoising, aiming to reduce noise in digital images without compromising essential features like edges, corners, and sharp structures.
 
-*Can you create a one or two sentence summary of the problem and the proposed solution approach?*
+Link to Big Picture:
+By tackling the subproblem of image denoising, this research directly contributes to the larger goal of achieving visually appealing and accurate digital images.
+
+Approach:
+The approach involves a comprehensive overview of existing image denoising techniques, starting with the formulation of the denoising problem and subsequently introducing various methods.
+
+Resulting Solution:
+The outcome is expected to be a refined understanding of image denoising techniques, providing insights into effective noise reduction without sacrificing crucial image features.
+
+Quantitative Metrics:
+The success of solving this subproblem will be measured using quantitative metrics, ensuring that the denoising methods applied effectively improve image quality without compromising vital image attributes.
+
+Graphics:
+Incorporating one or two graphics will visually communicate the challenges posed by image noise and illustrate the proposed denoising solutions, making the information accessible to both technical and non-expert audiences.
+
+Summary:
+Addressing the surge in digital images, this research strives to enhance image quality by effectively mitigating noise, presenting a detailed examination of image denoising techniques and their quantitative evaluation.
+
 
 ## Broader impact
-- What is the value of your approach beyond this specific solution?
-- What is the value of this solution beyond solely solving this subproblem and getting us closer to solving the big picture problem?
-- In other words, even if someone doesn't care about the big picture problem that you started with, why should they still care about the specific work that you've produced? Who else can use your processes and results, and how?
+Value Beyond Specific Solution:
+The proposed denoising approach extends its impact beyond addressing noise in digital images, offering broader applications in diverse fields, including medical imaging, surveillance, and scientific research.
 
-## Background / related work / references
-- Find external sources that support your framing of the research problem. In particular, you should establish your answers to all of the above questions using only material from other researchers.
-- You should also find additional sources that address:
-  - What foundation and fundamentals need to be known in order to understand your problem, approach, and solution?
-  - What work has been done before on this specific problem?
-  - What are related problems that have been addressed, and what work has been done on those?
-  - What are unrelated problems that have employed specific aspects of your proposed approach or solution?
-  - How does this collection of past work contribute to your planned work?
-  - How do we know that your subproblem hasn't yet been solved?
-- Be sure to cite all potential sources, and summarize each one in terms of its content and relation to your project.
+Value in Solving Subproblem:
+Beyond contributing to the immediate goal of noise reduction, the research's value lies in advancing the broader objective of achieving high-quality digital images, with potential applications ranging from personal photography to professional image processing.
+
+Relevance Beyond Big Picture:
+Even for those disinterested in the broader issues of image quality, the significance of this work is underscored by its potential applicability in various domains, catering to users who seek improved visual content for different purposes.
+
+User Base:
+The processes and results generated by this research are not limited to a specific audience; rather, they cater to a wide range of users, from individuals passionate about photography to professionals relying on clear and accurate visual data.
+
+Conclusion:
+In essence, this research not only addresses the immediate challenge of image denoising but also presents a valuable contribution with far-reaching implications for diverse fields, making it relevant and beneficial to a broad audience.
+
+## Background 
+Context:
+Understanding the landscape of image denoising requires a thorough exploration of existing research, foundational principles, and prior efforts in the field. This section provides the necessary context by delving into external sources, establishing the groundwork for addressing the research problem, and illustrating the evolution of solutions to image denoising challenges.
+
+Infographics:
+
+Timeline of Image Denoising Research:
+
+Visual representation of the chronological development of image denoising techniques.
+Highlights key milestones and breakthroughs in the field over time.
+Research Framework:
+
+Diagram outlining the foundational principles necessary to comprehend the research problem, including key concepts in image processing and noise reduction.
+Comparative Analysis:
+
+Comparative chart summarizing various denoising methods, their advantages, and limitations.
+Provides a quick reference for understanding the landscape of existing solutions.
+Interconnected Problems:
+
+Illustration of related and unrelated problems that have utilized aspects of the proposed approach.
+Demonstrates the versatility and potential applicability of the research in addressing different challenges.
+Contributions to Planned Work:
+
+Visual representation showcasing how past research efforts contribute to the planned work.
+Highlights areas of inspiration and integration from prior studies.
+Unsolved Subproblems:
+
+Graphical representation emphasizing areas within the subproblem of image denoising that remain unsolved.
+Indicates gaps in current research and sets the stage for the unique contribution of the proposed approach.
+Content Outline:
+
+Foundations and Fundamentals:
+
+Cite seminal works outlining fundamental principles in image processing and denoising.
+Provide a visual framework detailing the essential concepts that underpin the research problem.
+Previous Work on Image Denoising:
+
+Summarize research conducted by others on the specific problem of image denoising.
+Offer a visual representation of the evolution of denoising techniques, emphasizing key findings.
+Related Problems and Solutions:
+
+Identify related problems that have been addressed and explore the solutions employed.
+Present a visual comparison of how various problems intersect and diverge, emphasizing commonalities.
+Unrelated Problems with Similar Approaches:
+
+Showcase instances where unrelated problems have utilized aspects of the proposed approach.
+Visualize the adaptability of the research methodology across different domains.
+Contributions of Past Work to Planned Research:
+
+Highlight specific contributions from previous studies that directly inform the planned research.
+Use visuals to convey how the collective body of past work shapes the current approach.
+Verification of Unresolved Subproblems:
+
+Present evidence supporting the assertion that the identified subproblem of image denoising remains unsolved.
+Utilize infographics to emphasize the gaps in existing solutions and the need for the proposed research.
+This comprehensive exploration, supported by visually engaging infographics, establishes a robust foundation for the research, demonstrating its alignment with prior work, the evolution of relevant concepts, and the uniqueness of the proposed approach.
+
+
+## References / Related Work
+
+- Survey's and Reviews
+  - https://vciba.springeropen.com/articles/10.1186/s42492-019-0016-7
+
+- Papers
+  - https://arxiv.org/pdf/2006.11239.pdf
+  - https://arxiv.org/pdf/2105.05233.pdf
+
+- Tutorials
+  - https://www.youtube.com/watch?v=a4Yfz2FxXiY&ab_channel=DeepFindr
+  - https://colab.research.google.com/drive/1sjy9odlSSy0RBVgMTgP7s99NXsqglsUL?usp=sharing
+
+- Repositories
+  - https://github.com/diff-usion/Awesome-Diffusion-Models
+
+- Blogs
+  - https://machinelearningmastery.com/a-gentle-introduction-to-positional-encoding-in-transformer-models-part-1/
+
+- Theory and Math
+  - https://www.youtube.com/watch?v=HoKDTa5jHvg&t=1338s&ab_channel=Outlier
+
 
 ## Capabilities, deliverables, tasks
-- Recursively break down the proposed project starting from the highest level specifications spanning the complete research period down to individual atomic steps spanning days to at most a week. At each level of hierarchy, specify:
-  - What capabilities does your system need to achieve?
-  - What is an (engineering) outcome that is currently not achievable that this capability will make possible?
-  - What are the specific academic questions that this will answer?
-  - What deliverables will you produce to indicate that the above capabilities have been achieved? *(These must be specific, concrete nouns.)*
-  - How do these deliverables prove that the capabilities have been met?
-  - How do these deliverables prove that there is no way the capabilities cannot have been met?
-  - What tasks are necessary to generate those deliverables? *(These must include specific, concrete verbs that you as an engineer must do.)*
-  - Include as much detail as you can, so you can properly predict the time to allocate for each task, and prepare for anticipated contingencies.
-  - Be sure to include dependencies --- which (earlier) capabilities must your system be capable of in order for you to start each task?
-- Distill the entire hierarchy into a list of weekly or shorter milestones. What will you need to achieve by when in order to attain your objectives for the end of the project on time?
-
-*Keep in mind that these capabilities, deliverables, and tasks are all distinct characterizations of required research. Tasks are verbs that you as the engineer must fulfill. They are done in order to enable your engineered system to accomplish its desired capabilities. In order for your system to achieve a single capability, you may need to execute several subtasks; each of your subtasks may have required your system to have accomplished a sub-capability enabling an incremental update in its abilities. The collection of deliverables should be sufficient for someone who hasn't seen you working to certify that your capabilities have been met, and your system can in fact achieve the prescribed abilities. When generating deliverables, keep in mind that one data point does not indicate a trend, and appropriate statistical rigor should be applied to the presented results. Try to address counterfactuals, edge cases, and competing explanations in your deliverables.*
-
-*As an example:*
-
-*Capability: The robot can computationally estimate its [x, y, θ] state in real time; or our system can compute an error metric on the robot's real-time state estimate.*
-*Deliverables:*
-- *Video showing robot being controlled randomly by human driver, with a view of an overhead camera image being used for ground truth measurements; a real-time display of the estimated position will be overlaid onto that view*
-- *Several trajectory plots of ground truth position along with estimated position from varying initial conditions under varying control input sequences*
-- *Shaded statistical plot of Euclidean error and angular heading error over time for those trajectories*
-*Tasks:*
-- *Learn Kalman filtering*
-- *Program KF in Python*
-- *Connect inputs and outputs of robot car into KF code*
-- *Compute ground truth from overhead camera using OpenCV*
-- *Draw output of KF as overlay on overhead camera view*
-- *Generate relevant plots of results*
-
-*A bad example:*
-
-*(not a) capability: Program a Kalman filter (this is not a question that you are looking to answer, nor an ability of the system that you are engineering)*
-*(not a) deliverable: KF code listing (this does not certify that the code enables the ability it is meant to do, nor even that it compiles or is complete)*
-*(not a) task: Run KF code (I guess this could sort of be a task, but if all this means is pushing "go", you're not really detailing what it is you need to spend time on)*
