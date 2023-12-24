@@ -95,7 +95,7 @@ def std(img):
     # std = sqrt(mean(a-a.mean)^2)
     return np.std(img)
     
-path = r"C:\Users\chang\Downloads\New folder\the best\0aa8a895-1301-41d5-9098-02db9738b43b.jpg"
+path = r"C:\Users\chang\source\repos\Denoising\cat.png"
 img = cv2.imread(path)
 Img = ImageConvolutionRGB(img)
 Img_ROI = ImageConvolutionRGB(Img.get_roi(128, 128, 256, 256))
