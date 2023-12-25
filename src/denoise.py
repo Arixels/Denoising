@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
-path = r"C:\Users\chang\Downloads\New folder\the best\0aa8a895-1301-41d5-9098-02db9738b43b.jpg"
+path = r"C:\Users\chang\source\repos\Denoising\data\410235141_367436305836058_3589902287613083535_n.jpg"
 img = Image.open(path)
 cv_img = cv2.imread(path)
 cv2.imshow('image', cv_img)
